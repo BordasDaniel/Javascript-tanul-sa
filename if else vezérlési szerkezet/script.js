@@ -72,3 +72,39 @@ if (false){
 } else{
     console.log('Béci még gyerek');
 }
+
+// else if szerkezet:
+
+// Ez a szerkezet egy újabb feltételt fogalmaz meg.
+// Csak akkor kezdi el vizsgálni, ha az if ág nem teljesül.
+
+
+let ido = 6;
+
+if (ido < 12){
+    console.log('Reggel van.');
+} else if(ido < 18){
+    console.log('délután van');
+} else{
+    console.log('Este van');
+}
+
+ido = 12;
+
+if (ido < 12){
+    console.log('Reggel van.');
+} else if(ido < 18){
+    console.log('délután van');
+} else{
+    console.log('Este van');
+}
+
+ido = 20;
+
+if (ido < 12){
+    console.log('Reggel van.');
+} else if(ido < 18){
+    console.log('délután van');
+} else{
+    console.log('Este van');
+}
